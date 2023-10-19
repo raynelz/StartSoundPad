@@ -13,6 +13,7 @@
 		EC0F20192AE1671A00EF9D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0F20172AE1671A00EF9D19 /* Main.storyboard */; };
 		EC0F201B2AE1671C00EF9D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0F201A2AE1671C00EF9D19 /* Assets.xcassets */; };
 		EC0F201E2AE1671C00EF9D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0F201C2AE1671C00EF9D19 /* LaunchScreen.storyboard */; };
+		EC0F20262AE167C000EF9D19 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EC0F20252AE167C000EF9D19 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC0F201A2AE1671C00EF9D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC0F201D2AE1671C00EF9D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC0F201F2AE1671C00EF9D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0F20252AE167C000EF9D19 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		EC0F20102AE1671A00EF9D19 /* StartSoundPad */ = {
 			isa = PBXGroup;
 			children = (
-				EC0F20112AE1671A00EF9D19 /* AppDelegate.swift */,
-				EC0F20132AE1671A00EF9D19 /* SceneDelegate.swift */,
+				EC0F20272AE167D800EF9D19 /* Files */,
 				EC0F20152AE1671A00EF9D19 /* ViewController.swift */,
 				EC0F20172AE1671A00EF9D19 /* Main.storyboard */,
 				EC0F201A2AE1671C00EF9D19 /* Assets.xcassets */,
-				EC0F201C2AE1671C00EF9D19 /* LaunchScreen.storyboard */,
-				EC0F201F2AE1671C00EF9D19 /* Info.plist */,
+				EC0F20252AE167C000EF9D19 /* Sounds */,
 			);
 			path = StartSoundPad;
+			sourceTree = "<group>";
+		};
+		EC0F20272AE167D800EF9D19 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0F201F2AE1671C00EF9D19 /* Info.plist */,
+				EC0F201C2AE1671C00EF9D19 /* LaunchScreen.storyboard */,
+				EC0F20112AE1671A00EF9D19 /* AppDelegate.swift */,
+				EC0F20132AE1671A00EF9D19 /* SceneDelegate.swift */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				EC0F201E2AE1671C00EF9D19 /* LaunchScreen.storyboard in Resources */,
 				EC0F201B2AE1671C00EF9D19 /* Assets.xcassets in Resources */,
+				EC0F20262AE167C000EF9D19 /* Sounds in Resources */,
 				EC0F20192AE1671A00EF9D19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
